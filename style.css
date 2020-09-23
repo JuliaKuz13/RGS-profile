@@ -1,0 +1,83 @@
+/* Write some CSS below */
+body {
+	background-color: #c4e3cb; 
+	font-family: Arial, monospace;
+	font-size: 18px;
+	font-weight: lighter;
+	color: rgb(50,50,50)
+}
+
+a {text-decoration: none;}
+
+h1 {
+	color: #404b69;
+	font-size: 38px;
+	font-family: 'Merriweather 700', serif;
+	font-style: 
+}
+
+h2 {
+   color: #616161;
+   font-size: 26px;
+   font-weight: bold;
+   font-family: 'Merriweather 300', serif;
+
+  }
+
+.link{
+    	text-decoration: none;
+   a:hover {
+  	color: #d6e0f0;
+  }
+}
+
+.h2-link{
+ text-decoration: none;
+  a:hover {
+    color: #616161;
+  }    
+}
+
+  #title {
+  	width: 500px;
+  	margin: 50px auto;
+    padding: 15px;
+  	background-color:
+  }
+
+
+  .text-center {
+    width: 600px;
+  	margin: 50px auto;
+  	background: #f4f9f4;
+  	padding: 50px;
+  	border-radius: 4px;
+  	box-shadow: 0 15px 35px rgba(50,50,93,.1);
+  	
+  	
+  }
+
+  .perfect-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 10%;
+
+  }
+
+@media (max-width: 960px) {
+      .text-center {
+        width: 700px;
+      }
+  }
+
+@media (max-width: 720px) {
+      .text-center {
+        width: 500px;
+      }
+  }
+
+  @media (max-width: 540px) {
+      .text-center {
+        width: 300px;
+      }
+  }
